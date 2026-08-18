@@ -1,0 +1,29 @@
+{
+  "name": "marcador-asistencia",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "server:dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "@vladmandic/face-api": "^1.7.15",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^4.2.1",
+    "lucide-react": "latest",
+    "morgan": "^1.10.0",
+    "pg": "^8.16.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  }
+}
